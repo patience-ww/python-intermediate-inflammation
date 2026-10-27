@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": [
+        "Python Intermediate Inflammation Analysis"
+      ],
+      "description": [
+        "A research software project containing Python code and example CSV datasets for analysing simulated patient inflammation measurements. The project includes scripts for data analysis and visualisation, with software dependencies documented to support reproducibility."
+      ],
+      "author": [
+        {
+          "@id": "#Aleksandra_Nenadic-1"
+        },
+        {
+          "@id": "#Steve_Crouch-1"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#Aleksandra_Nenadic-1",
+      "@type": "Person",
+      "name": "Aleksandra_Nenadic-1"
+    },
+    {
+      "@id": "#Steve_Crouch-1",
+      "@type": "Person",
+      "name": "Steve_Crouch-1"
+    }
+  ]
+}
